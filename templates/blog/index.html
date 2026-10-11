@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    Стили к заданию 9-->
+    <style>
+        .grade-good { color: green; font-weight: bold; }
+        .grade-bad { color: red; font-weight: bold; }
+    </style>
+  <title>index</title>
+
+</head>
+<body>
+
+<!--<h2>Задание 7</h2>-->
+<!--<h3>Обратный порядок:</h3>-->
+<!--<ul>-->
+<!--{% for step in steps_reversed %}-->
+<!--    <li>{{ step }}</li>-->
+<!--{% endfor %}-->
+
+<!--    <h3>Обратная нумерация:</h3>-->
+<!--{% for step in steps %}-->
+<!--    <p>{{ forloop.revcounter }}. {{ step }}</p>-->
+<!--{% endfor %}-->
+<!--</ul>-->
+
+<!--<h2>Задание 8 Новости</h2>-->
+<!--<ul>-->
+<!--{% for item in news %}-->
+<!--    <li>-->
+<!--        {% if forloop.first %}-->
+<!--            <b>{{ item }}</b>-->
+<!--        {% else %}-->
+<!--            {{ item }}-->
+<!--        {% endif %}-->
+
+<!--        {% if forloop.last %}-->
+<!--        {% endif %}-->
+<!--    </li>-->
+<!--{% endfor %}-->
+<!--</ul>-->
+
+<!--<h2>Задание 9 Оценки студентов</h2>-->
+
+<!--{% for student_name, marks in grades.items %}-->
+<!--    <h3>{{ student_name }}</h3>-->
+<!--    <ul>-->
+<!--        {% for mark in marks %}-->
+<!--                        <li>-->
+<!--                {{ forloop.parentloop.counter }}.{{ forloop.counter }}:-->
+<!--                    {% if mark == 5 %}-->
+<!--                        <span class="grade-good">{{ mark }}</span>-->
+<!--                    {% elif mark == 2 %}-->
+<!--                        <span class="grade-bad">{{ mark }}</span>-->
+<!--                    {% else %}-->
+<!--                        {{ mark }}-->
+<!--                    {% endif %}-->
+<!--            </li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+<!--{% endfor %}-->
+
+
+
+</body>
+</html>
